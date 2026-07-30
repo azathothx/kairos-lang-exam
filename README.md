@@ -29,6 +29,10 @@ materials never redefine it.
 [リファレンス実装](https://github.com/azathothx/kairos-lang)で再現できる
 （`# eval:` の範囲で実行すると期待出力と一致する）。
 
+## 教本 / Textbook
+
+- [3 級教本 — 読解](textbook/L3.md)（v0・言語 RC5 準拠。2 級・1 級は問題バンク拡充後）
+
 ## 正本と検証 / Canonicity
 
 - 言語の正本: [kairos-lang.org](https://kairos-lang.org/)（仕様・リファレンス・標準ライブラリ）
