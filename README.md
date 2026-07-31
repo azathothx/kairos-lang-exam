@@ -21,8 +21,11 @@ materials never redefine it.
 - 3 級: [L3-001 各月の先頭日（出力予測）](L3/001-first-of-month.md) ·
   [L3-004 週窓と wkst（出力予測）](L3/004-week-wkst.md) ·
   [L3-007 日付リテラルの字句（概念）](L3/007-date-lexis.md) ·
-  [L3-008 二層構造（概念）](L3/008-two-layers.md)
-- 2 級: [L2-003 毎月の第 2 金曜（作文）](L2/003-second-friday.md)
+  [L3-008 二層構造（概念）](L3/008-two-layers.md) ·
+  [L3-011 営業日の定番形（出力予測）](L3/011-bizday-idiom.md) ·
+  [L3-013 和の重複排除（出力予測）](L3/013-union-dedup.md)
+- 2 級: [L2-003 毎月の第 2 金曜（作文）](L2/003-second-friday.md) ·
+  [L2-009 毎月の最終金曜（作文）](L2/009-last-friday.md)
 - 1 級: [L1-002 空テーブルと「正当な空」（概念）](L1/002-empty-table.md)
 
 各問題は言語仕様の §参照つき。実行可能な問題は末尾の「検証」節がそのまま
