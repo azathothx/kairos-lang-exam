@@ -25,7 +25,11 @@ materials never redefine it.
   [L3-011 営業日の定番形（出力予測）](L3/011-bizday-idiom.md) ·
   [L3-013 和の重複排除（出力予測）](L3/013-union-dedup.md)
 - 2 級: [L2-003 毎月の第 2 金曜（作文）](L2/003-second-friday.md) ·
-  [L2-009 毎月の最終金曜（作文）](L2/009-last-friday.md)
+  [L2-009 毎月の最終金曜（作文）](L2/009-last-friday.md) ·
+  [L2-011 五十日（作文）](L2/011-gotobi.md) ·
+  [L2-013 第 1・第 3 月曜（作文）](L2/013-first-third-monday.md) ·
+  [L2-014 毎月の最終営業日（作文）](L2/014-last-bizday.md) ·
+  [L2-015 支払期日（作文）](L2/015-payday-following.md)
 - 1 級: [L1-002 空テーブルと「正当な空」（概念）](L1/002-empty-table.md)
 
 各問題は言語仕様の §参照つき。実行可能な問題は末尾の「検証」節がそのまま
@@ -34,7 +38,8 @@ materials never redefine it.
 
 ## 教本 / Textbook
 
-- [3 級教本 — 読解](textbook/L3.md)（v0・言語 RC5 準拠。2 級・1 級は問題バンク拡充後）
+- [3 級教本 — 読解](textbook/L3.md)（v1・言語 RC5 準拠・全章に実行検証つき「動かして読む」）
+- [2 級教本 — 作文](textbook/L2.md)（v1・言語 RC5 準拠。1 級は問題バンク拡充後）
 
 ## 正本と検証 / Canonicity
 
