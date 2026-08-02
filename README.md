@@ -44,6 +44,9 @@ materials never redefine it.
 
 ## 教本 / Textbook
 
+実行環境なしで試すなら [Playground](https://kairos-lang.org/playground/)——教本の「動かして読む」は
+各例に「▶ Playground で開く」リンクつき。
+
 - [3 級教本 — 読解](textbook/L3.md)（v1・言語 RC5 準拠・全章に実行検証つき「動かして読む」）
 - [2 級教本 — 作文](textbook/L2.md)（v1・同上）
 - [1 級教本 — 運用意味論](textbook/L1.md)（v1・同上——三級構成はこれで完結）
