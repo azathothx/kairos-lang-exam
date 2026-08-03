@@ -3,7 +3,7 @@ id: L2-015
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "§7.4"]
-spec_head: 9e46dcf
+spec_head: 44493ad
 verified: impl
 ---
 
@@ -41,8 +41,8 @@ everyDay |> within(month) |> nth(25) |> roll(Following, on: bizDay)
 
 ## 解説
 
-給料日（L2-001）との違いは規約の**向き**だけ——支払う側に有利な前倒しは Preceding・
-受け取る側の期日は Following が商慣習の型。7/25（土）→ 7/27（月）・10/25（日）→ 10/26（月）。
+前倒し（Preceding）で書く給料日の型との違いは規約の**向き**だけ——支払う側に有利な前倒しは
+Preceding・受け取る側の期日は Following が商慣習の型。7/25（土）→ 7/27（月）・10/25（日）→ 10/26（月）。
 「どちらへ倒すかは業務の意味が決める」ので、要件文の「繰り上げ／繰り下げ」を読み落とすと
 Preceding/Following を取り違える——読解と作文の境目になる一語。
 impl 実走検証済み（2026-08-01・公開 HEAD 9e46dcf）。

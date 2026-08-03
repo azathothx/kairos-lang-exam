@@ -2,8 +2,8 @@
 id: L3-001
 form: output-prediction
 visibility: public
-spec_refs: ["§4.3（窓と選択子）", "reference/within.md", "reference/first.md"]
-spec_head: 46a7730
+spec_refs: ["§4.2（窓）", "§4.3（選択子）", "reference/within.md", "reference/first.md"]
+spec_head: 44493ad
 verified: impl
 ---
 

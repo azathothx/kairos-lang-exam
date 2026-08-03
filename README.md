@@ -5,7 +5,8 @@
 
 Study materials and sample questions for the **Kairos** schedule definition language
 certification (the certification itself is in preparation). The
-**[language specification](https://kairos-lang.org/en/spec/) is always canonical** — these
+**[language specification](https://kairos-lang.org/spec/) is always canonical** (Japanese
+originals; the [English mirror](https://kairos-lang.org/en/spec/) follows them) — these
 materials never redefine it.
 
 ## 級構成（案） / Grades (draft)
@@ -30,7 +31,7 @@ materials never redefine it.
   [L2-013 第 1・第 3 月曜（作文）](L2/013-first-third-monday.md) ·
   [L2-014 毎月の最終営業日（作文）](L2/014-last-bizday.md) ·
   [L2-015 支払期日（作文）](L2/015-payday-following.md)
-- 1 級: [L1-002 空テーブルと「正当な空」（概念）](L1/002-empty-table.md) ·
+- 1 級: [L1-002 空テーブルと「正当な空」（出力予測）](L1/002-empty-table.md) ·
   [L1-003 SupplyError の型区別（概念）](L1/003-supply-error-types.md) ·
   [L1-005 残走路の読み（概念）](L1/005-runway-reading.md) ·
   [L1-008 発報層との分業（概念）](L1/008-division-of-labor.md) ·
@@ -49,11 +50,12 @@ materials never redefine it.
 
 - [3 級教本 — 読解](textbook/L3.md)（v1・言語 RC5 準拠・全章に実行検証つき「動かして読む」）
 - [2 級教本 — 作文](textbook/L2.md)（v1・同上）
-- [1 級教本 — 運用意味論](textbook/L1.md)（v1・同上——三級構成はこれで完結）
+- [1 級教本 — 運用意味論](textbook/L1.md)（v1・同上——三つの級の教本はこれで完結）
 
 ## 正本と検証 / Canonicity
 
 - 言語の正本: [kairos-lang.org](https://kairos-lang.org/)（仕様・リファレンス・標準ライブラリ）
-- 全問題はリファレンス実装での実行検証つき（仕様改訂時は `spec_head` で追従を機械検出）
+- 実行可能な問題（出力予測・作文）はリファレンス実装での実行検証つき・概念問題は仕様行根拠
+  （`verified: spec-line`）。仕様改訂時は `spec_head` で追従を機械検出
 
 License: Apache-2.0
