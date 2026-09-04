@@ -1,5 +1,6 @@
 ---
 id: L3-001
+title: L3-001
 form: output-prediction
 visibility: public
 spec_refs: ["§4.2（窓）", "§4.3（選択子）", "reference/within.md", "reference/first.md"]

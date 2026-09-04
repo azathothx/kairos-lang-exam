@@ -1,5 +1,6 @@
 ---
 id: L3-008
+title: L3-008
 form: concept
 visibility: public
 spec_refs: ["§2.1（二層構造）", "§3.1（premise）"]

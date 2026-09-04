@@ -1,5 +1,6 @@
 ---
 id: L1-015
+title: L1-015
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（実効被覆域の分類器）", "ADR-37 判断 6/8", "ADR-15"]

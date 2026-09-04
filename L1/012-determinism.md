@@ -1,5 +1,6 @@
 ---
 id: L1-012
+title: L1-012
 form: output-prediction
 visibility: public
 spec_refs: ["§7.8（消費ループ・決定性）", "ADR-31（from: 必須）", "reference/stride.md"]

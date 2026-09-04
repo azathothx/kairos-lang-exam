@@ -1,5 +1,6 @@
 ---
 id: L1-005
+title: L1-005
 form: concept
 visibility: public
 spec_refs: ["§4.10（被覆サマリ・残走路）", "ADR-37"]

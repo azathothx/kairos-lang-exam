@@ -1,5 +1,6 @@
 ---
 id: L3-007
+title: L3-007
 form: concept
 visibility: public
 spec_refs: ["§5.5（字句・日付リテラル）", "ADR-43"]

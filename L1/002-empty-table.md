@@ -1,5 +1,6 @@
 ---
 id: L1-002
+title: L1-002
 form: output-prediction
 visibility: public
 spec_refs: ["§3.8（空テーブル）", "ADR-45", "reference/table-literal.md"]

@@ -1,5 +1,6 @@
 ---
 id: L2-011
+title: L2-011
 form: composition
 visibility: public
 spec_refs: ["§4.6（フィルタ）", "§4.9（暦座標糖衣 dayNo）"]

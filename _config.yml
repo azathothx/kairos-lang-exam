@@ -1,0 +1,40 @@
+# GitHub Pages (Jekyll) — 検定サイトの設定。正本は kairos-exam-project/public/（同期は tools/publish.sh）。
+# 公開 URL: https://exam.kairos-lang.org/（本体 kairos-lang.org のサブドメイン・CNAME ファイルと対。
+# 計画＝design/20-domain-plan.md: Pages 化とサブドメイン割当は同時実施・github.io の URL は露出させない）
+title: Kairos 検定
+tagline: Kairos language exam — study materials and sample questions
+description: >-
+  スケジュール定義言語 Kairos の検定プロジェクト——級設計に基づく教材（3 級 読解・2 級 作文・
+  1 級 運用意味論）とサンプル問題。Study materials and sample questions for the Kairos
+  schedule definition language certification.
+url: "https://exam.kairos-lang.org"
+baseurl: ""
+repository: azathothx/kairos-lang-exam
+
+theme: jekyll-theme-primer
+
+# 素の Markdown 群（front matter なし）をそのままページ化するための定番プラグイン（本体と同一・GitHub Pages ホワイトリスト内）
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+optional_front_matter:
+  remove_originals: true
+readme_index:
+  remove_originals: true
+  with_frontmatter: true
+relative_links:
+  enabled: true
+titles_from_headings:
+  enabled: true
+  strip_title: false
+
+# 全ページ日本語（英訳は教材のスコープ外・言語切替 UI は英訳開始まで置かない）
+defaults:
+  - scope: { path: "" }
+    values: { lang: "ja" }

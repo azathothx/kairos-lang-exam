@@ -1,5 +1,6 @@
 ---
 id: L3-011
+title: L3-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.5（結合子）", "reference/combinators.md"]

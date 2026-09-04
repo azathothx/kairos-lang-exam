@@ -1,5 +1,6 @@
 ---
 id: L2-009
+title: L2-009
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "reference/roll.md（匿名軸）"]

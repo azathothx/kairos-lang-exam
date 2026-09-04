@@ -1,5 +1,6 @@
 ---
 id: L2-003
+title: L2-003
 form: composition
 visibility: public
 spec_refs: ["§4.6（filter）", "§4.3（nth）", "§7.2"]

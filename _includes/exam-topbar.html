@@ -1,0 +1,22 @@
+{%- comment -%}
+  パンくず（Pages 専用・全ページ共通）。親は本体サイト kairos-lang.org（サイト横断＝「Kairos / 検定 / 階層 / ページ」）。
+  L1/L2/L3・textbook にはディレクトリ index が無いので階層名は文字のみ。問題ページの題名は publish.sh が
+  front matter の id から title に写す（titles-from-headings が「問題」を拾うのを避ける）。
+{%- endcomment -%}
+{%- assign clean = page.url | replace: '/index.html', '/' -%}
+<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 16px;font-size:.85em;color:#57606a;border-bottom:1px solid #d8dee4;padding-bottom:8px;margin-bottom:24px">
+  <nav aria-label="breadcrumbs">
+    <a href="https://kairos-lang.org/"><img src="{{ '/assets/logo/kairos-mark.svg' | relative_url }}" width="15" height="15" alt="" style="vertical-align:-3px;margin-right:4px">Kairos</a>
+    <span> / </span>
+    {%- if clean == '/' -%}<span aria-current="page">検定</span>{%- else -%}<a href="{{ '/' | relative_url }}">検定</a>{%- endif -%}
+    {%- assign parts = clean | split: '/' -%}
+    {%- for part in parts -%}
+      {%- if part == '' or forloop.last -%}{%- continue -%}{%- endif -%}
+      <span> / </span><span>{{ part }}</span>
+    {%- endfor -%}
+    {%- unless clean == '/' -%}
+      <span> / </span><span aria-current="page">{{ page.title | default: page.name }}</span>
+    {%- endunless -%}
+  </nav>
+  <div><a href="https://kairos-lang.org/spec/">言語仕様</a><span> · </span><a href="https://kairos-lang.org/playground/">Playground</a></div>
+</div>

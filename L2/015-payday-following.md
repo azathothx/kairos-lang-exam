@@ -1,5 +1,6 @@
 ---
 id: L2-015
+title: L2-015
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "§7.4"]

@@ -50,7 +50,7 @@ materials never redefine it.
 
 - [3 級教本 — 読解](textbook/L3.md)（v1・言語 RC5 準拠・全章に実行検証つき「動かして読む」）
 - [2 級教本 — 作文](textbook/L2.md)（v1・同上）
-- [1 級教本 — 運用意味論](textbook/L1.md)（v1・同上——三つの級の教本はこれで完結）
+- [1 級教本 — 運用意味論](textbook/L1.md)（v1.1・同上——三つの級の教本はこれで完結）
 
 ## 正本と検証 / Canonicity
 
