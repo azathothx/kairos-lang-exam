@@ -4,7 +4,7 @@ title: L3-008
 form: concept
 visibility: public
 spec_refs: ["§2.1（二層構造）", "§3.1（premise）"]
-spec_head: 46a7730
+spec_head: v1.0.0
 verified: spec-line
 ---
 

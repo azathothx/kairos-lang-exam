@@ -4,7 +4,7 @@ title: L1-002
 form: output-prediction
 visibility: public
 spec_refs: ["§3.8（空テーブル）", "ADR-45", "reference/table-literal.md"]
-spec_head: 44493ad
+spec_head: v1.0.0
 verified: impl
 ---
 

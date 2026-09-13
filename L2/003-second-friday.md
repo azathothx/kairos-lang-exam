@@ -4,7 +4,7 @@ title: L2-003
 form: composition
 visibility: public
 spec_refs: ["§4.6（filter）", "§4.3（nth）", "§7.2"]
-spec_head: 46a7730
+spec_head: v1.0.0
 verified: impl
 ---
 

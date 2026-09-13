@@ -4,7 +4,7 @@ title: L2-013
 form: composition
 visibility: public
 spec_refs: ["§4.5（結合子）", "§4.3（nth）", "§3.5（束縛）", "§4.8（糖衣定義）"]
-spec_head: 44493ad
+spec_head: v1.0.0
 verified: impl
 ---
 

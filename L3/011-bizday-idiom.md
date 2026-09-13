@@ -4,7 +4,7 @@ title: L3-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.5（結合子）", "reference/combinators.md"]
-spec_head: 9e46dcf
+spec_head: v1.0.0
 verified: impl
 ---
 

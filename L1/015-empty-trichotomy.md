@@ -4,7 +4,7 @@ title: L1-015
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（実効被覆域の分類器）", "ADR-37 判断 6/8", "ADR-15"]
-spec_head: d1085ee
+spec_head: v1.0.0
 verified: impl
 ---
 
