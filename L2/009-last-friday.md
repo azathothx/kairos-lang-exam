@@ -4,8 +4,9 @@ title: L2-009
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "reference/roll.md（匿名軸）"]
-spec_head: v1.0.0
+spec_head: v1.0.5
 verified: impl
+difficulty: 2
 ---
 
 ## 問題

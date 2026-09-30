@@ -4,8 +4,9 @@ title: L3-013
 form: output-prediction
 visibility: public
 spec_refs: ["§4.5（結合子）", "reference/combinators.md"]
-spec_head: v1.0.0
+spec_head: v1.0.5
 verified: impl
+difficulty: 2
 ---
 
 ## 問題

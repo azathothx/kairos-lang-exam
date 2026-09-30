@@ -4,8 +4,9 @@ title: L1-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（評価註釈・輸送表）", "ADR-37 判断 4"]
-spec_head: v1.0.0
+spec_head: v1.0.5
 verified: impl
+difficulty: 3
 ---
 
 ## 問題
@@ -61,6 +62,7 @@ dues |> shift(90, unit: day)
 ```
 
 ```text
+# 0 点（[2028-01-01, 2028-06-01) に該当なし）
 # ⚠ 範囲外 2028-01-01..2028-03-31（dues covering 2026-01-01..2026-12-31, 2028-01-01..2028-12-31）
 # 被覆サマリ
 #   dues covering 2026-01-01..2026-12-31, 2028-01-01..2028-12-31 残走路 214 日
