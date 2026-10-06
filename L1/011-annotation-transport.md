@@ -4,7 +4,7 @@ title: L1-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（評価註釈・輸送表）", "ADR-37 判断 4"]
-spec_head: v1.0.5
+spec_head: v1.0.6
 verified: impl
 difficulty: 3
 ---

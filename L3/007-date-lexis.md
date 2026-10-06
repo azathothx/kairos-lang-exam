@@ -4,7 +4,7 @@ title: L3-007
 form: concept
 visibility: public
 spec_refs: ["§5.5（字句・日付リテラル）", "ADR-43"]
-spec_head: v1.0.5
+spec_head: v1.0.6
 verified: spec-line
 difficulty: 1
 ---
