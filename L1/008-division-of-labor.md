@@ -4,7 +4,7 @@ title: L1-008
 form: concept
 visibility: public
 spec_refs: ["§7.7", "§7.8（発報層との分業）"]
-spec_head: v1.0.6
+spec_head: v1.0.7
 verified: spec-line
 difficulty: 1
 ---
