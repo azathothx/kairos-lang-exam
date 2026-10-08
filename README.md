@@ -46,7 +46,7 @@ materials never redefine it.
 ## 教本 / Textbook
 
 実行環境なしで試すなら [Playground](https://kairos-lang.org/playground/)——教本の「動かして読む」は
-各例に「▶ Playground で開く」リンクつき。教材の期待出力は Playground と同じ版（参照実装 1.0.7・2026-10-08 追従）で
+各例に「▶ Playground で開く」リンクつき。教材の期待出力は Playground と同じ版（参照実装 1.0.8・2026-10-08 追従）で
 検証している——例を Playground で動かすと、教材に載っている出力と同じ表示になる（本体が更新されたら教材も追従する）。
 
 - [3 級教本 — 読解](textbook/L3.md)（v1・言語 1.0 準拠〈2026-10-08 追従〉・全章に実行検証つき「動かして読む」）

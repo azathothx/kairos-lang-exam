@@ -4,7 +4,7 @@ title: L1-003
 form: concept
 visibility: public
 spec_refs: ["§3.8（external・供給契約）", "ADR-45", "ADR-46"]
-spec_head: v1.0.7
+spec_head: v1.0.8
 verified: spec-line
 difficulty: 1
 ---
