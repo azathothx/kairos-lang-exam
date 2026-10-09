@@ -4,7 +4,7 @@ title: L1-005
 form: concept
 visibility: public
 spec_refs: ["§4.10（被覆サマリ・残走路）", "ADR-37"]
-spec_head: v1.0.8
+spec_head: v1.0.9
 verified: spec-line
 difficulty: 1
 ---

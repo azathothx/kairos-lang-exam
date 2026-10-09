@@ -4,7 +4,7 @@ title: L3-004
 form: output-prediction
 visibility: public
 spec_refs: ["§3.6（week と wkst）", "reference/within.md"]
-spec_head: v1.0.8
+spec_head: v1.0.9
 verified: impl
 difficulty: 2
 ---

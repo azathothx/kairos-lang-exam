@@ -4,7 +4,7 @@ title: L1-012
 form: output-prediction
 visibility: public
 spec_refs: ["§7.8（消費ループ・決定性）", "ADR-31（from: 必須）", "reference/stride.md"]
-spec_head: v1.0.8
+spec_head: v1.0.9
 verified: impl
 difficulty: 2
 ---
