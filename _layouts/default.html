@@ -14,7 +14,8 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       {% include exam-topbar.html %}
-
+{% if page.spec_refs %}      <p class="exam-meta text-gray" style="font-size: 0.9em">仕様の参照: {{ page.spec_refs | join: "・" }}{% if page.spec_head %}　／　追従: {{ page.spec_head }}{% endif %}{% if page.verified %}　／　検証: {{ page.verified }}{% endif %}{% if page.difficulty %}　／　難易度: {{ page.difficulty }}{% endif %}</p>
+{% endif %}
       <main>
       {{ content }}
       </main>

@@ -41,7 +41,7 @@ materials never redefine it.
 
 各問題は言語仕様の §参照つき。実行可能な問題は末尾の「検証」節がそのまま
 [リファレンス実装](https://github.com/azathothx/kairos-lang)で再現できる
-（`# eval:` の範囲で実行すると期待出力と一致する）。
+（`# eval:` の範囲を `--tz Asia/Tokyo` を付けて実行すると期待出力と一致する。CLI の既定は機械の tz なので、日本以外の環境では必ず付ける）。
 
 ## 教本 / Textbook
 
