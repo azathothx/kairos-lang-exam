@@ -1,7 +1,7 @@
 {%- comment -%}
   パンくず（Pages 専用・全ページ共通）。親は本体サイト kairos-lang.org（サイト横断＝「Kairos / 検定 / 階層 / ページ」）。
-  L1/L2/L3・textbook にはディレクトリ index が無いので階層名は文字のみ。問題ページの題名は publish.sh が
-  front matter の id から title に写す（titles-from-headings が「問題」を拾うのを避ける）。
+  階層（L1/L2/L3・textbook）は各ディレクトリの README（jekyll-readme-index が /L1/ 等の index にする）へのリンク。
+  問題ページの題名は publish.sh が front matter の id から title に写す（titles-from-headings が「問題」を拾うのを避ける）。
 {%- endcomment -%}
 {%- assign clean = page.url | replace: '/index.html', '/' -%}
 <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 16px;font-size:.85em;color:#57606a;border-bottom:1px solid #d8dee4;padding-bottom:8px;margin-bottom:24px">
@@ -12,7 +12,7 @@
     {%- assign parts = clean | split: '/' -%}
     {%- for part in parts -%}
       {%- if part == '' or forloop.last -%}{%- continue -%}{%- endif -%}
-      <span> / </span><span>{{ part }}</span>
+      <span> / </span><a href="{{ part | prepend: '/' | append: '/' | relative_url }}">{{ part }}</a>
     {%- endfor -%}
     {%- unless clean == '/' -%}
       <span> / </span><span aria-current="page">{{ page.title | default: page.name }}</span>

@@ -19,19 +19,19 @@ materials never redefine it.
 
 ## サンプル問題 / Sample questions
 
-- 3 級: [L3-001 各月の先頭日（出力予測）](L3/001-first-of-month.md) ·
+- [3 級](L3/README.md): [L3-001 各月の先頭日（出力予測）](L3/001-first-of-month.md) ·
   [L3-004 週窓と wkst（出力予測）](L3/004-week-wkst.md) ·
   [L3-007 日付リテラルの字句（概念）](L3/007-date-lexis.md) ·
   [L3-008 二層構造（概念）](L3/008-two-layers.md) ·
   [L3-011 営業日の定番形（出力予測）](L3/011-bizday-idiom.md) ·
   [L3-013 和の重複排除（出力予測）](L3/013-union-dedup.md)
-- 2 級: [L2-003 毎月の第 2 金曜（作文）](L2/003-second-friday.md) ·
+- [2 級](L2/README.md): [L2-003 毎月の第 2 金曜（作文）](L2/003-second-friday.md) ·
   [L2-009 毎月の最終金曜（作文）](L2/009-last-friday.md) ·
   [L2-011 五十日（作文）](L2/011-gotobi.md) ·
   [L2-013 第 1・第 3 月曜（作文）](L2/013-first-third-monday.md) ·
   [L2-014 毎月の最終営業日（作文）](L2/014-last-bizday.md) ·
   [L2-015 支払期日（作文）](L2/015-payday-following.md)
-- 1 級: [L1-002 空テーブルと「正当な空」（出力予測）](L1/002-empty-table.md) ·
+- [1 級](L1/README.md): [L1-002 空テーブルと「正当な空」（出力予測）](L1/002-empty-table.md) ·
   [L1-003 SupplyError の型区別（概念）](L1/003-supply-error-types.md) ·
   [L1-005 残走路の読み（概念）](L1/005-runway-reading.md) ·
   [L1-008 発報層との分業（概念）](L1/008-division-of-labor.md) ·
@@ -46,10 +46,10 @@ materials never redefine it.
 ## 教本 / Textbook
 
 実行環境なしで試すなら [Playground](https://kairos-lang.org/playground/)——教本の「動かして読む」は
-各例に「▶ Playground で開く」リンクつき。教材の期待出力は Playground と同じ版（参照実装 1.0.10・2026-10-16 追従）で
+各例に「▶ Playground で開く」リンクつき。教材の期待出力は Playground と同じ版（参照実装 1.0.11・2026-10-19 追従）で
 検証している——例を Playground で動かすと、教材に載っている出力と同じ表示になる（本体が更新されたら教材も追従する）。
 
-- [3 級教本 — 読解](textbook/L3.md)（v1・言語 1.0 準拠〈2026-10-16 追従〉・全章に実行検証つき「動かして読む」）
+- [3 級教本 — 読解](textbook/L3.md)（v1・言語 1.0 準拠〈2026-10-19 追従〉・全章に実行検証つき「動かして読む」）
 - [2 級教本 — 作文](textbook/L2.md)（v1・同上）
 - [1 級教本 — 運用意味論](textbook/L1.md)（v1.1・同上——三つの級の教本はこれで完結）
 
