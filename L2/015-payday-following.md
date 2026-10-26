@@ -47,7 +47,7 @@ everyDay |> within(month) |> nth(25) |> roll(Following, on: bizDay)
 Preceding・受け取る側の期日は Following が商慣習の型。7/25（土）→ 7/27（月）・10/25（日）→ 10/26（月）。
 「どちらへ倒すかは業務の意味が決める」ので、要件文の「繰り上げ／繰り下げ」を読み落とすと
 Preceding/Following を取り違える——読解と作文の境目になる一語。
-impl 実走検証済み（2026-08-01・公開 HEAD 9e46dcf）。
+impl 実走検証済み（版は冒頭の spec_head）。
 
 ## 検証
 

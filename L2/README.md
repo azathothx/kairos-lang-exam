@@ -14,4 +14,6 @@
 [リファレンス実装](https://github.com/azathothx/kairos-lang)か [Playground](https://kairos-lang.org/playground/) で見比べる。
 各問題は言語仕様の §参照つき——正本は常に[言語仕様](https://kairos-lang.org/spec/)。
 
+CLI で再現するときは `npx kairos-lang list --from a --to b --tz Asia/Tokyo 定義.kairos`（`# eval: a..b` の a・b を入れる。`--tz` は必ず付ける＝CLI の既定は機械の時間帯で、違うと日付が前日の時刻付きで出る）。
+
 ← [検定トップ](../README.md)・教本 [3 級](../textbook/L3.md)・[2 級](../textbook/L2.md)・[1 級](../textbook/L1.md)

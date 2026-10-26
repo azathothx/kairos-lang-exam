@@ -33,7 +33,7 @@ everyDay |> within(week) |> first
 
 week 窓の切れ目は前文の `wkst: Mon` が決める——各週窓の先頭点＝月曜。wkst が Sun なら
 同じ式で日曜列になる（式でなく前提が意味を変える＝premise 層の役割）。
-impl 実走検証済み（2026-07-30・公開 HEAD 46a7730）。
+impl 実走検証済み（版は冒頭の spec_head）。
 
 ## 検証
 

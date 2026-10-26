@@ -44,7 +44,7 @@ everyDay |> filter(d => weekday(d) == Mon) |> stride(2, from: 2026-01-05)
 **`from:` が持つ**（ADR-31 で from: を必須にした帰結）ことがこれを支える。もし数え起こしが窓の
 先頭に依存したら、発報層が評価するたびに隔週の位相が揺れる——(a) は「rolling horizon で使えない
 定義」の姿で、Kairos はその形を言語仕様の段階で締め出している。
-impl 実走検証済み（2026-08-02・公開 HEAD d1085ee）。
+impl 実走検証済み（版は冒頭の spec_head）。
 
 ## 検証
 

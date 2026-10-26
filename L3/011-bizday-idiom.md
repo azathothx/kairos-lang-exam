@@ -37,7 +37,7 @@ everyDay \ (satSun | holidays)
 評価範囲の月〜金のうち山の日（8/11 火）だけが和に含まれ抜ける。土曜 8/15・日曜 8/16 は
 satSun 側で抜ける。この `everyDay \ (satSun | holidays)` が営業日導出の基本形で、実務では
 カレンダー実体の `nonWorking` として宣言する（§3.9——3 級では形が読めれば足りる）。
-impl 実走検証済み（2026-07-31・公開 HEAD 9e46dcf）。
+impl 実走検証済み（版は冒頭の spec_head）。
 
 ## 検証
 
