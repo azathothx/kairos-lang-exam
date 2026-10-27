@@ -3,7 +3,7 @@ id: L2-003
 title: L2-003
 form: composition
 visibility: public
-spec_refs: ["§4.6（filter）", "§4.3（nth）", "§7.2"]
+spec_refs: ["§4.6（filter）", "§4.3（nth）", "§7.2（第 2 営業日の次の金曜＝nth の前に絞る形が同型）"]
 spec_head: v1.0.12
 verified: impl
 difficulty: 1
