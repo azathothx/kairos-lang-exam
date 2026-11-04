@@ -34,7 +34,9 @@ titles_from_headings:
   enabled: true
   strip_title: false
 
-# 全ページ日本語（英訳は教材のスコープ外・言語切替 UI は英訳開始まで置かない）
+# 日本語が正・en/ は公開面の英語ミラー（2026-10-31・索引・教本 3 冊・公開問題。照合は tools/en-check.mjs）。言語切り替えは _includes/exam-topbar.html
 defaults:
   - scope: { path: "" }
     values: { lang: "ja" }
+  - scope: { path: "en" }
+    values: { lang: "en" }

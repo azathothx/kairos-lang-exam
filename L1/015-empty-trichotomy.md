@@ -4,7 +4,7 @@ title: L1-015
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（実効被覆域の分類器）", "ADR-37 判断 6/8", "ADR-15"]
-spec_head: v1.0.12
+spec_head: v1.1.0
 verified: impl
 difficulty: 3
 ---
@@ -13,6 +13,7 @@ difficulty: 3
 
 roll の着地先が見つからず結果が**空**になるとき、Kairos は「なぜ空か」を出力の形で区別する。
 次の 2 つの評価（どちらも点ゼロ）の**出力の違い**と、それぞれの運用上の読みを述べよ。
+前提は検証節と同じ `@JP`（`premise JP`＝Gregorian・`Asia/Tokyo`）の下、評価範囲は 2027-01-01..2027-06-01 とする。
 
 【A】軸データの covering が 2026 年で尽きている（2027 年分は未取得）:
 

@@ -4,7 +4,7 @@ title: L3-001
 form: output-prediction
 visibility: public
 spec_refs: ["§4.2（窓）", "§4.3（選択子）", "reference/within.md", "reference/first.md"]
-spec_head: v1.0.12
+spec_head: v1.1.0
 verified: impl
 difficulty: 1
 ---
@@ -38,7 +38,7 @@ everyDay |> within(month) |> first
 
 `everyDay` が暦法純粋な日刻みを生成し、`within(month)` が月窓でパーティション化、`first` が
 各窓の先頭点を選ぶ（窓相対＝I4）。よって各月の 1 日が発火する。評価範囲は右開なので
-4 月分の窓は範囲に入らず、3 点で止まる。impl 実走で検証済み（2026-07-28・公開 HEAD 46a7730）。
+4 月分の窓は範囲に入らず、3 点で止まる。impl 実走で検証済み（版は冒頭の spec_head）。
 
 ## 検証
 

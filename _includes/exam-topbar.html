@@ -2,21 +2,42 @@
   パンくず（Pages 専用・全ページ共通）。親は本体サイト kairos-lang.org（サイト横断＝「Kairos / 検定 / 階層 / ページ」）。
   階層（L1/L2/L3・textbook）は各ディレクトリの README（jekyll-readme-index が /L1/ 等の index にする）へのリンク。
   問題ページの題名は publish.sh が front matter の id から title に写す（titles-from-headings が「問題」を拾うのを避ける）。
+  言語切り替え（2026-10-31）: en/ は公開面の英語ミラー（同じ相対パス）。page.lang は _config.yml の defaults（path "en" → en）。
+  右側に対訳ページへのリンク（/ ↔ /en/）・仕様と Playground は言語側の同じ言語面へ。404 は対訳が無いので切り替えを出さない。
 {%- endcomment -%}
 {%- assign clean = page.url | replace: '/index.html', '/' -%}
+{%- if page.lang == 'en' -%}
+  {%- assign home = '/en/' -%}
+  {%- assign root_label = 'Exam' -%}
+  {%- assign other_url = clean | remove_first: '/en' -%}
+  {%- assign other_label = '日本語' -%}
+  {%- assign site_base = 'https://kairos-lang.org/en/' -%}
+  {%- assign spec_label = 'Specification' -%}
+{%- else -%}
+  {%- assign home = '/' -%}
+  {%- assign root_label = '検定' -%}
+  {%- assign other_url = clean | prepend: '/en' -%}
+  {%- assign other_label = 'English' -%}
+  {%- assign site_base = 'https://kairos-lang.org/' -%}
+  {%- assign spec_label = '言語仕様' -%}
+{%- endif -%}
 <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 16px;font-size:.85em;color:#57606a;border-bottom:1px solid #d8dee4;padding-bottom:8px;margin-bottom:24px">
   <nav aria-label="breadcrumbs">
-    <a href="https://kairos-lang.org/"><img src="{{ '/assets/logo/kairos-mark.svg' | relative_url }}" width="15" height="15" alt="" style="vertical-align:-3px;margin-right:4px">Kairos</a>
+    <a href="{{ site_base }}"><img src="{{ '/assets/logo/kairos-mark.svg' | relative_url }}" width="15" height="15" alt="" style="vertical-align:-3px;margin-right:4px">Kairos</a>
     <span> / </span>
-    {%- if clean == '/' -%}<span aria-current="page">検定</span>{%- else -%}<a href="{{ '/' | relative_url }}">検定</a>{%- endif -%}
+    {%- if clean == home -%}<span aria-current="page">{{ root_label }}</span>{%- else -%}<a href="{{ home | relative_url }}">{{ root_label }}</a>{%- endif -%}
     {%- assign parts = clean | split: '/' -%}
     {%- for part in parts -%}
       {%- if part == '' or forloop.last -%}{%- continue -%}{%- endif -%}
-      <span> / </span><a href="{{ part | prepend: '/' | append: '/' | relative_url }}">{{ part }}</a>
+      {%- if page.lang == 'en' and forloop.index == 2 -%}{%- continue -%}{%- endif -%}
+      <span> / </span><a href="{{ part | prepend: home | append: '/' | relative_url }}">{{ part }}</a>
     {%- endfor -%}
-    {%- unless clean == '/' -%}
+    {%- unless clean == home -%}
       <span> / </span><span aria-current="page">{{ page.title | default: page.name }}</span>
     {%- endunless -%}
   </nav>
-  <div><a href="https://kairos-lang.org/spec/">言語仕様</a><span> · </span><a href="https://kairos-lang.org/playground/">Playground</a></div>
+  <div>
+    {%- unless page.url == '/404.html' -%}<a href="{{ other_url | relative_url }}">{{ other_label }}</a><span> · </span>{%- endunless -%}
+    <a href="{{ site_base }}spec/">{{ spec_label }}</a><span> · </span><a href="{{ site_base }}playground/">Playground</a>
+  </div>
 </div>

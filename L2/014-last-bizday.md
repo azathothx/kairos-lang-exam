@@ -4,7 +4,7 @@ title: L2-014
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "§7.1"]
-spec_head: v1.0.12
+spec_head: v1.1.0
 verified: impl
 difficulty: 1
 ---

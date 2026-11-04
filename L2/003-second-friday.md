@@ -4,7 +4,7 @@ title: L2-003
 form: composition
 visibility: public
 spec_refs: ["§4.6（filter）", "§4.3（nth）", "§7.2（第 2 営業日の次の金曜＝nth の前に絞る形が同型）"]
-spec_head: v1.0.12
+spec_head: v1.1.0
 verified: impl
 difficulty: 1
 ---
@@ -24,8 +24,7 @@ everyDay |> filter(d => weekday(d) == Fri) |> within(month) |> nth(2)
 ## 解説
 
 金曜だけに濾してから月窓で第 2 要素を選ぶ——「窓の中で数える対象」を filter が先に絞るのが要点
-（within |> nth(2) を先にすると「各月の 2 日」になってしまう）。impl 実走検証済み（2026-07-30・
-公開 HEAD 46a7730）。
+（within |> nth(2) を先にすると「各月の 2 日」になってしまう）。impl 実走検証済み（版は冒頭の spec_head）。
 
 ## 検証
 
