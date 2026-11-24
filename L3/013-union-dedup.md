@@ -4,7 +4,7 @@ title: L3-013
 form: output-prediction
 visibility: public
 spec_refs: ["§4.5（結合子）", "reference/combinators.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---
@@ -26,7 +26,7 @@ premise JP {
 ```
 
 - (a) 5 点（25 日の 1 点＋金曜の 4 点）
-- (b) **4 点**
+- (b) 4 点
 - (c) 8 点
 - (d) 1 点（両方に該当する 9/25 のみ）
 

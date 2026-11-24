@@ -4,7 +4,7 @@ title: L1-002
 form: output-prediction
 visibility: public
 spec_refs: ["§3.8（空テーブル）", "ADR-45", "reference/table-literal.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---
@@ -31,7 +31,7 @@ bizDay
 ```
 
 - (a) 空テーブルは静的エラー
-- (b) **月〜金の 5 点が発火し、被覆サマリに holidays2027 の残走路が立つ（範囲外註釈は出ない）**
+- (b) 月〜金の 5 点が発火し、被覆サマリに holidays2027 の残走路が立つ（範囲外註釈は出ない）
 - (c) 全期間に範囲外註釈が付く
 - (d) 祝日不明のため 1 点も発火しない
 

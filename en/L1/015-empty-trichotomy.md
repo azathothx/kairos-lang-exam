@@ -1,11 +1,11 @@
 ---
-source_sha: f2f7447cd3dc
+source_sha: ddba7e58e014
 id: L1-015
 title: L1-015
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（実効被覆域の分類器）", "ADR-37 判断 6/8", "ADR-15"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 3
 ---

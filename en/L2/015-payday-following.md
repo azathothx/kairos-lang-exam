@@ -1,11 +1,11 @@
 ---
-source_sha: 02f60f0cee13
+source_sha: 5ed09ffb35ac
 id: L2-015
 title: L2-015
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "§7.4"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 1
 ---

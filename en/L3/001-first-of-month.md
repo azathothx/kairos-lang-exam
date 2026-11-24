@@ -1,11 +1,11 @@
 ---
-source_sha: 7cf70acc3bd7
+source_sha: 6b28646257a4
 id: L3-001
 title: L3-001
 form: output-prediction
 visibility: public
 spec_refs: ["§4.2（窓）", "§4.3（選択子）", "reference/within.md", "reference/first.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 1
 ---

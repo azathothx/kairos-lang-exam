@@ -1,11 +1,11 @@
 ---
-source_sha: e9ce62ec61d1
+source_sha: 2644feb55300
 id: L2-009
 title: L2-009
 form: composition
 visibility: public
 spec_refs: ["§4.4（roll）", "reference/roll.md（匿名軸）"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---

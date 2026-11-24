@@ -1,11 +1,11 @@
 ---
-source_sha: 59b143405eb1
+source_sha: a50683650cdd
 id: L3-008
 title: L3-008
 form: concept
 visibility: public
 spec_refs: ["§2.1（二層構造）", "§3.1（premise）"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -15,7 +15,7 @@ difficulty: 1
 Choose the one correct statement about the two layers of Kairos.
 
 - (a) The premise layer weaves the schedule, and the body layer defines the calendar system
-- (b) **The premise layer supplies premises such as the calendar system and calendars, and the body layer weaves the schedule with that vocabulary**
+- (b) The premise layer supplies premises such as the calendar system and calendars, and the body layer weaves the schedule with that vocabulary
 - (c) The two layers are syntactic decoration, and the same thing can be written in either layer
 - (d) The body layer is evaluated before the premise layer
 

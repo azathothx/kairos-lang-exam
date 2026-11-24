@@ -1,11 +1,11 @@
 ---
-source_sha: f38d993cbac8
+source_sha: 55e2916b205d
 id: L1-002
 title: L1-002
 form: output-prediction
 visibility: public
 spec_refs: ["§3.8（空テーブル）", "ADR-45", "reference/table-literal.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---
@@ -32,7 +32,7 @@ bizDay
 ```
 
 - (a) An empty table is a static error
-- (b) **The 5 points Mon–Fri fire, and the coverage summary shows the runway of holidays2027 (no out-of-coverage annotation appears)**
+- (b) The 5 points Mon–Fri fire, and the coverage summary shows the runway of holidays2027 (no out-of-coverage annotation appears)
 - (c) An out-of-coverage annotation is attached to the whole period
 - (d) Not a single point fires because the holidays are unknown
 

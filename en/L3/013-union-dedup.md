@@ -1,11 +1,11 @@
 ---
-source_sha: 8183cb1f2b4f
+source_sha: 8d4ca0f1d2ea
 id: L3-013
 title: L3-013
 form: output-prediction
 visibility: public
 spec_refs: ["§4.5（結合子）", "reference/combinators.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---
@@ -27,7 +27,7 @@ premise JP {
 ```
 
 - (a) 5 points (1 point for the 25th plus 4 points for the Fridays)
-- (b) **4 points**
+- (b) 4 points
 - (c) 8 points
 - (d) 1 point (only 9/25, which satisfies both)
 

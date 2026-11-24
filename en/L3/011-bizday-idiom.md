@@ -1,11 +1,11 @@
 ---
-source_sha: 28799e53bd57
+source_sha: 94dda326004d
 id: L3-011
 title: L3-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.5（結合子）", "reference/combinators.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---

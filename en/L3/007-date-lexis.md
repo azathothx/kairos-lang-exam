@@ -1,11 +1,11 @@
 ---
-source_sha: 38cfb479e519
+source_sha: 8b106977cc6e
 id: L3-007
 title: L3-007
 form: concept
 visibility: public
 spec_refs: ["§5.5（字句・日付リテラル）", "ADR-43"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -16,7 +16,7 @@ The date literal `2026-02-30` was written in Kairos source. Choose the one corre
 
 - (a) It is reinterpreted as 2026-03-02 (rollover)
 - (b) Only that point is ignored at run time
-- (c) **It is a lexical error and is rejected at parse time**
+- (c) It is a lexical error and is rejected at parse time
 - (d) It is treated as an empty stream
 
 ## Answer

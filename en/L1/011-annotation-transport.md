@@ -1,11 +1,11 @@
 ---
-source_sha: 2a5f2ffa077e
+source_sha: 41ea29ad5202
 id: L1-011
 title: L1-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（評価註釈・輸送表）", "ADR-37 判断 4"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 3
 ---
@@ -29,7 +29,7 @@ dues |> shift(90, unit: day)
 ```
 
 - (a) Zero points · no annotation (there are simply no 2028 contracts)
-- (b) **Zero points plus an out-of-coverage annotation [2028-01-01, 2028-03-31)**
+- (b) Zero points plus an out-of-coverage annotation [2028-01-01, 2028-03-31)
 - (c) The missing 2027 is a static error
 - (d) 90 days after the 2026 contracts (May and November 2026) come out
 

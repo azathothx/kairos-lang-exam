@@ -4,7 +4,7 @@ title: L3-008
 form: concept
 visibility: public
 spec_refs: ["§2.1（二層構造）", "§3.1（premise）"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -14,7 +14,7 @@ difficulty: 1
 Kairos の二層構造について、正しいものを一つ選べ。
 
 - (a) premise 層はスケジュールを編み、本体層は暦法を定義する
-- (b) **premise 層は暦法・カレンダー等の前提を供給し、本体層はその語彙でスケジュールを編む**
+- (b) premise 層は暦法・カレンダー等の前提を供給し、本体層はその語彙でスケジュールを編む
 - (c) 二層は構文の飾りで、どちらの層にも同じことが書ける
 - (d) 本体層は premise 層より先に評価される
 

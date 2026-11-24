@@ -1,11 +1,11 @@
 ---
-source_sha: 465b78084e18
+source_sha: 88727907d18c
 id: L1-008
 title: L1-008
 form: concept
 visibility: public
 spec_refs: ["§7.7", "§7.8（発報層との分業）"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -17,8 +17,8 @@ choose the one correct statement of **what the language specification defines**.
 
 - (a) The language detects the missed fire and automatically fires it late
 - (b) Firings during the stop are lost under the language specification
-- (c) **The language guarantees up to the deterministic enumeration of the point sequence (the same definition · the same data · the same range gives the same result);
-  detecting what was missed, delayed execution and idempotence are the responsibility of the firing layer**
+- (c) The language guarantees up to the deterministic enumeration of the point sequence (the same definition · the same data · the same range gives the same result);
+  detecting what was missed, delayed execution and idempotence are the responsibility of the firing layer
 - (d) After the restart the evaluation is recomputed from the stop time, so the result changes
 
 ## Answer

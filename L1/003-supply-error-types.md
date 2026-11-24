@@ -4,7 +4,7 @@ title: L1-003
 form: concept
 visibility: public
 spec_refs: ["§3.8（external・供給契約）", "ADR-45", "ADR-46"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -15,8 +15,8 @@ difficulty: 1
 正しいものを一つ選べ。
 
 - (a) 空テーブル `[] covering: …` に自動的に読み替えて続行する
-- (b) **供給エラー（SupplyError 系）——「まだ無い」（空テーブル）とは型で区別され、
-  空への読み替えはしない**
+- (b) 供給エラー（SupplyError 系）——「まだ無い」（空テーブル）とは型で区別され、
+  空への読み替えはしない
 - (c) 前回の解決値がキャッシュされていれば黙ってそれを使う
 - (d) covering を外して全期間未知として続行する
 

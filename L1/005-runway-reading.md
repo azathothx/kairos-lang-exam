@@ -4,7 +4,7 @@ title: L1-005
 form: concept
 visibility: public
 spec_refs: ["§4.10（被覆サマリ・残走路）", "ADR-37"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -15,7 +15,7 @@ difficulty: 1
 この **−5 日** の意味として正しいものを一つ選べ。
 
 - (a) データの更新が 5 日遅れている（asof が 5 日古い）
-- (b) **評価範囲の終端が covering の終端を 5 日超えている**——結果の末尾 5 日ぶんはデータの
+- (b) 評価範囲の終端が covering の終端を 5 日超えている——結果の末尾 5 日ぶんはデータの
   範囲外に踏み込んでいる
 - (c) 5 日後に covering が切れる
 - (d) 過去 5 日ぶんのデータが欠けている

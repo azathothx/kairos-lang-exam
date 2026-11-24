@@ -1,11 +1,11 @@
 ---
-source_sha: 51909927d614
+source_sha: c9389e851655
 id: L3-004
 title: L3-004
 form: output-prediction
 visibility: public
 spec_refs: ["§3.6（week と wkst）", "reference/within.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---

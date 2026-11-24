@@ -4,7 +4,7 @@ title: L1-011
 form: output-prediction
 visibility: public
 spec_refs: ["§4.10（評価註釈・輸送表）", "ADR-37 判断 4"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 3
 ---
@@ -28,7 +28,7 @@ dues |> shift(90, unit: day)
 ```
 
 - (a) 点ゼロ・註釈なし（2028 年の契約が無いだけ）
-- (b) **点ゼロ＋範囲外註釈 [2028-01-01, 2028-03-31)**
+- (b) 点ゼロ＋範囲外註釈 [2028-01-01, 2028-03-31)
 - (c) 2027 年分の欠落は静的エラー
 - (d) 2026 年の契約の 90 日後（2026 年 5 月・11 月）が出る
 

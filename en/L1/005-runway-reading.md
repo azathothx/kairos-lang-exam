@@ -1,11 +1,11 @@
 ---
-source_sha: 575c844ea248
+source_sha: 4b1dc65ccea3
 id: L1-005
 title: L1-005
 form: concept
 visibility: public
 spec_refs: ["§4.10（被覆サマリ・残走路）", "ADR-37"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: spec-line
 difficulty: 1
 ---
@@ -16,7 +16,7 @@ The coverage summary of an evaluation result said "`holidays covering 2026-01-01
 Choose the one correct meaning of this **−5 days**.
 
 - (a) The data update is 5 days late (asof is 5 days old)
-- (b) **The end of the evaluation range exceeds the end of covering by 5 days** — the last 5 days of the result step
+- (b) The end of the evaluation range exceeds the end of covering by 5 days — the last 5 days of the result step
   outside the range of the data
 - (c) covering expires in 5 days
 - (d) The data for the past 5 days is missing

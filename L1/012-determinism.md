@@ -4,7 +4,7 @@ title: L1-012
 form: output-prediction
 visibility: public
 spec_refs: ["§7.8（消費ループ・決定性）", "ADR-31（from: 必須）", "reference/stride.md"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---
@@ -28,7 +28,7 @@ everyDay |> filter(d => weekday(d) == Mon) |> stride(2, from: 2026-01-05)
 **重なり区間 [2026-01-15, 2026-02-01) の点**はどうなるか。
 
 - (a) 窓によってずれ得る（stride の数え起こしが窓の先頭に依存するため）
-- (b) **両窓で一致する**
+- (b) 両窓で一致する
 - (c) 窓 B では隔週の位相が反転する
 - (d) 重なり区間の点は窓 B にだけ現れる
 

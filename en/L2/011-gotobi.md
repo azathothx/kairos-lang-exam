@@ -1,11 +1,11 @@
 ---
-source_sha: 0dae404d077b
+source_sha: 6921a6c72b00
 id: L2-011
 title: L2-011
 form: composition
 visibility: public
 spec_refs: ["§4.6（フィルタ）", "§4.9（暦座標糖衣 dayNo）"]
-spec_head: v1.1.0
+spec_head: v1.1.1
 verified: impl
 difficulty: 2
 ---

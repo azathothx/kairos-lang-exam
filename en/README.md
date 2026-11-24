@@ -1,5 +1,5 @@
 ---
-source_sha: 7b322a42cd48
+source_sha: 914ebee035a2
 ---
 
 # Kairos Language Exam — Study Materials and Sample Questions
@@ -53,10 +53,10 @@ can be reproduced as is with the
 ## Textbooks
 
 To try things without a runtime, use the [Playground](https://kairos-lang.org/en/playground/) — every "Run it and read" example in the textbooks
-has an "▶ Open in the Playground" link. The expected output in these materials is verified against the same version as the Playground (reference implementation 1.1.0, tracked 2026-11-04) —
+has an "▶ Open in the Playground" link. The expected output in these materials is verified against the same version as the Playground (reference implementation 1.1.1, tracked 2026-11-24) —
 running an example in the Playground shows the same output as printed here (when the implementation is updated, the materials follow).
 
-- [Grade 3 Textbook — Reading](textbook/L3.md) (v1 · conforms to language 1.0 〈tracked 2026-11-04〉 · every chapter has an execution-verified "Run it and read")
+- [Grade 3 Textbook — Reading](textbook/L3.md) (v1 · conforms to language 1.0 〈tracked 2026-11-24〉 · every chapter has an execution-verified "Run it and read")
 - [Grade 2 Textbook — Writing](textbook/L2.md) (v1 · same)
 - [Grade 1 Textbook — Operational semantics](textbook/L1.md) (v1.1 · same — with this the textbooks for the three grades are complete)
 
